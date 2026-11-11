@@ -2,7 +2,7 @@ name: Auto Pause Leishen
 
 on:
   schedule:
-    # 自动暂停时间 (UTC时间00:00 = 北京时间8:10)
+    # 自动暂停时间 (UTC时间14:21 = 北京时间22:21)
     - cron: '0 0 * * *'
   workflow_dispatch: # 允许手动触发
 
